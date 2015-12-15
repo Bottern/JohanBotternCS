@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab1
+{
+    class Juice : EcoStockItem 
+    {
+        private string juiceSort;
+        public string JuiceSort
+        {
+            get { return juiceSort; }
+            set {if (value.ToLower() == "apple" || value.ToLower() == "orange")
+                    juiceSort = value;
+                else
+                    throw new Exception("Only Apple and Orange is available");
+            }
+        }
+       public override string ToString()
+        {
+            return ($"Juicesort {juiceSort} "+base.ToString());
+        }
+    }
+}
