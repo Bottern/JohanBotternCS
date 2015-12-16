@@ -11,7 +11,7 @@ namespace Ovning4
         static void Main(string[] args)
         {
             //carMethod();
-            radioMethod();
+            //radioMethod();
             //radioMethod2();
             //radioMethod3();
             //libraryMethod();
