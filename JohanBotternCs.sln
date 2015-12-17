@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "JohanBotternCs\Lab5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning4", "JohanBotternCs\Övning 4\Exorcise 4\Ovning4.csproj", "{6CCBA29A-4C50-49DC-9E26-4021B4C8C6FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning6", "..\Exorcise6\Exorcise6\Ovning6.csproj", "{A7CAF3DD-CF83-4751-9E61-E723F3DACFC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning6", "JohanBotternCs\Exorcise6\Exorcise6\Ovning6.csproj", "{A7CAF3DD-CF83-4751-9E61-E723F3DACFC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
