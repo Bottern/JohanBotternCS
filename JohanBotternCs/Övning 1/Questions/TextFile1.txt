@@ -1,0 +1,47 @@
+﻿Repetitionsfrågor
+        Vad står CLR för, och vad används den till?
+	    Svar) Common Language Runtime, den används för att köra programmen med hjälp med av exe filer samt dll filer också.
+        
+		Vad är BCL?
+        Svar) Base Class Library, det är ett bibliotek som innehåller systemtyper för CLI 
+        
+		Vad innebär det att kompilera källkod?
+        Svar) Att optimera det för det relevanta syftet.
+        
+		Den första kompileringen av källkod genererar en assembly i CIL-format. Vad står CIL för?
+        Svar) Common Intermediate Language 
+        
+		Vad kallas den andra kompileringen, dvs den som tar en assembly på CIL-format och omvandlar till maskinkod? Här bör du känna till både förkortning och vad den står för. När sker denna kompilering normalt?
+        Svar) JIT, dvs just in time, precis innan programmet körs.
+
+        Nämn en fördel och en nackdel med att .NET-program körs i en runtime-miljö.
+        Svar)  Fördel att det automatisk skräp samlas, samt att om det krashas så krashar inte allt utan bara nuvarande aktiva. Nackdelen är att det tar en del på prestandan.
+
+        Vad är en identifierare?
+        Svar) Identifierare är det namnet vi ger det vi skapar</li>
+        
+		Hur får en identifierare se ut?
+        Svar) Den ska vara väldigt logiskt och självförklarande genom att titta på identifieraren och då se direkt vad den gör. OBS, får ej innehålla nyckelord.
+        
+		Vad är camel case och pascal case?
+        Svar) camelCase börjar med en liten bokstav och för varje följande nytt ord ska det vara stor bokstav, PascalCase är som camelCase bortsett från det att även det första ordet är stor bokstav.
+        
+		Vad är nyckelord?
+        Svar) De är stringkaraktärer som används inom C#. De känns väldigt lätt igenom att de tar sig färgern blå.
+        
+		Vad innebär det att C# är carse sensitive?
+        Svar) Om något är case sensitive så är det känsligt för om det ska vara stor eller liten bokstav.
+        
+		Kompilatorn struntar i s.k. whitespace, men för tydlighetens skulle bör alltid källkod formatteras för maximal läsbarhet. Nämn ett par olika typer av whitespace.
+        Svar) Det kan uppkomma genom space bar(mellanslag), new line, tab eller enter (retur)
+        
+		Vilket tecken används för att avsluta ("terminera") ett uttryck?
+        Svar);
+        
+		Flera uttryck kan grupperas tillsammans till ett s.k. block, t.ex. för att utföras tillsammans om ett villkor är uppfyllt. Hur grupperas uttryck?
+        >Svar) Genom att sätta {} före och efter
+        
+		När bör källkod kommenteras? Vilka olika kommentarstyper finns, och hur anges de?
+        Svar) Behöver du kommentera har du failat, ska kunna anges I ett metodnamn.
+        Måste du kommentera finns det single line, multiline och dokumentation kommentar.
+        Single line anges med //, multiline börjar med /* och slutar med */. Dokumentation kommentar anges ///
