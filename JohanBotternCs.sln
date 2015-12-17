@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning4", "JohanBotternCs\Ã
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning6", "JohanBotternCs\Exorcise6\Exorcise6\Ovning6.csproj", "{A7CAF3DD-CF83-4751-9E61-E723F3DACFC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovning_6", "Ovning_6\Ovning_6.csproj", "{D077229E-6237-4D9C-B84E-665587F8DBD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A7CAF3DD-CF83-4751-9E61-E723F3DACFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7CAF3DD-CF83-4751-9E61-E723F3DACFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7CAF3DD-CF83-4751-9E61-E723F3DACFC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D077229E-6237-4D9C-B84E-665587F8DBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D077229E-6237-4D9C-B84E-665587F8DBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D077229E-6237-4D9C-B84E-665587F8DBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D077229E-6237-4D9C-B84E-665587F8DBD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
